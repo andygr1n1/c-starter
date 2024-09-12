@@ -5,5 +5,8 @@
         "stdio.h": "c",
         "utils.h": "c"
     },
+    "code-runner.executorMap": {
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt -lcs50 && ./$fileNameWithoutExt"
+    },
     "code-runner.runInTerminal": true
 }
