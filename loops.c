@@ -9,12 +9,26 @@
 //     }
 // }
 
+// int main(void)
+// {
+//     int counter = 0;
+//     while (counter < 3)
+//     {
+//         printf("i is %i\n", counter);
+//         counter++;
+//     }
+// }
+
+void meow(int n);
 int main(void)
 {
-    int counter = 0;
-    while (counter < 3)
+    meow(30);
+}
+
+void meow(int n)
+{
+    for (int i = 0; i < n; i++)
     {
-        printf("i is %i\n", counter);
-        counter++;
+        printf("meow\n");
     }
 }
